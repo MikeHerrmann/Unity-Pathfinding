@@ -1,0 +1,20 @@
+Beschreibung:
+
+Das Projekt vergleicht beim Pathfinding auf einem Grid den A-Star-Algorithmus mit einer rekursiven Suchfunktion, die jeweils den Nachbarknoten auswählt, der die kürzeste Distanz zum Ziel aufweist.
+Beide Algorithmen finden immer einen Weg, wenn einer existiert. Im Gegensatz zu A-Star, der immer den kürzesten Weg findet, ist der alternative Algorithmus mit kleineren Umwegen behaftet, dafür aber geringfügig schneller.
+Auf dem verwendeten Feld mit 9 x 9 Nodes:
+A-Star durchschnittlich 0,17 ms
+Rekursiver Algorithmus: 0,12 ms
+Eventuell ist dieser Algorithmus gerade wegen seiner nicht optimalen Wegfindung geeignet, die Wege von NPCs zu vorzugeben, falls eine "menschliche" Wegfindung gewünscht ist.
+
+ToDo:
+
+Differenziertere Einbeziehung von Kosten. Diese können nicht in jedem Fall als Eigenschaft der Nodes gespeichert werden, sondern sind eher Eigenschaften der Transitions (zB. kann eine Steigung zum Nachbarknoten eine andere Gewichtung haben, je nachdem, ob sie bergauf oder bergab geht. Es müssen also neben den Nodes-eigenen Kosten die Kosten für die jeweilige Transition bei der Auswahl des nächsten Schrittes berücksichtigt werden. (Dictionary?)
+
+
+
+
+
+Comparison of A-Star pathfinding algorithm with a simple recursive algorithm that finds for each node the neighbour with the smallest distance to target.
+For both methods there are an example in slow motion and one on a terrain.
+A-Star is the established method to find always the shortest way from start to a given target. The alternative algorithm also finds a way if one exists, but not necessarily the shortest. This method is marginally faster and may be the choice for a more "human" pathfinding.

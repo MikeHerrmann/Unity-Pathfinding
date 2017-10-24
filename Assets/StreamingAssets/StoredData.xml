@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <aStarStartIndex>
+    <float>11</float>
+    <float>7</float>
+  </aStarStartIndex>
+  <aStarTargetIndex>
+    <float>10</float>
+    <float>14</float>
+  </aStarTargetIndex>
+  <recursiveStartIndex>
+    <float>13</float>
+    <float>11</float>
+  </recursiveStartIndex>
+  <recursiveTargetIndex>
+    <float>8</float>
+    <float>14</float>
+  </recursiveTargetIndex>
+  <aStarCameraGimbalRotation>
+    <float>-0.0252378881</float>
+    <float>-0.8902857</float>
+    <float>-0.0718792751</float>
+    <float>0.448985338</float>
+  </aStarCameraGimbalRotation>
+  <recursiveCameraGimbalRotation>
+    <float>-0.1307811</float>
+    <float>-0.7023837</float>
+    <float>-0.1486949</float>
+    <float>0.683698237</float>
+  </recursiveCameraGimbalRotation>
+  <aStarCameraLocalPosition>
+    <float>0.00254821777</float>
+    <float>297.399841</float>
+    <float>-141.683456</float>
+  </aStarCameraLocalPosition>
+  <recursiveCameraLocalPosition>
+    <float>-0.0047712326</float>
+    <float>308.813751</float>
+    <float>-145.385422</float>
+  </recursiveCameraLocalPosition>
+</DataStore>
